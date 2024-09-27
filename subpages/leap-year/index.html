@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="icon" href="assets/images/icon-wo-bg.png" />
+    <script src="assets/js/main.js"></script>
+    <title>Calcular años bisiestos</title>
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <a href="https://github.com/AnotherOne661"
+          ><img src="assets/images/icon.png" alt="Monke"
+        /></a>
+      </div>
+      <nav>
+        <div><h1>Ejercicio de calcular años bisiestos</h1></div>
+      </nav>
+    </header>
+    <main>
+      <h2>Introduce el año deseado, y te diré si es bisiesto</h2>
+      <input
+        type="number"
+        placeholder="2024"
+        onchange="calcularBisiesto(this.value)"
+      />
+      <h2 class="ans"></h2>
+    </main>
+  </body>
+</html>
