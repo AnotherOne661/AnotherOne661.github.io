@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/styles/main.css" />
     <link rel="icon" href="assets/images/icon-wo-bg.png" />
-    <script src="assets/js/main.js"></script>
+    <script defer src="assets/js/main.js"></script>
     <title>Calcular años bisiestos</title>
   </head>
   <body>
@@ -22,8 +22,9 @@
     <main>
       <h2>Introduce el año deseado, y te diré si es bisiesto</h2>
       <input
+        id="inputanio"
         type="number"
-        placeholder="2024"
+        placeholder=""
         onchange="calcularBisiesto(this.value)"
       />
       <h2 class="ans"></h2>
