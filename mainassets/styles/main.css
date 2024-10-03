@@ -53,6 +53,7 @@ header nav {
   font-size: 4em;
   opacity: 1;
   text-align: center;
+  letter-spacing: .15em;
 }
 
 main {
