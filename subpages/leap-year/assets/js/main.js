@@ -6,7 +6,7 @@ const anio = new Date().getFullYear()
 inputAnio.placeholder=anio.toString()
 
 function calcularBisiesto(numero){
-  if (numero === 0){
+  if (numero == 0){
     text.textContent = "No existe un año cero"
   }
   const an = bis(numero)
